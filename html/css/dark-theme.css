@@ -1,0 +1,120 @@
+body {
+  background-color: #111;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.container {
+  position: relative;
+  margin-top: 10px;
+}
+
+#buttonDiv {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 10px;
+}
+
+
+#btnSwitch {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.mainDiv {
+  position: relative;
+  border: 1px solid white;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.imageDiv {
+  border-bottom: 2px solid #fff;
+  width: 400;
+  height: 300;
+}
+
+#mePic {
+  border: 1px solid white;
+  width: 40%;
+}
+
+.logo-div {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.contact-logos {
+  width: 5em;
+}
+
+.accordion-header button {
+  background-color: #333;
+  color: #fff;
+}
+
+.accordion-header button:hover {
+  background-color: #555;
+}
+
+.accordion-header button.collapsed {
+  background-color: #222;
+}
+
+.accordion-body, #modalButton {
+  background-color: #222;
+  color: #fff;
+}
+
+
+.accordion-body, a {
+  color: #fff;
+}
+
+.btn {
+  background-color: #555;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn:hover {
+  background-color: #777;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff;
+}
+
+.btn.btn-outline-success {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn.btn-outline-success:hover {
+  background-color: #777;
+}
+
+.container, .btn, .list-group, .list-group-item {
+  border-radius: 0;
+}
+
+.list-group {
+  justify-content: space-between;
+}
+
+.modal-dialog {
+  max-width: 800px;
+  width: 100%;
+}
+
+iframe {
+  width: 50em;
+  height: 75em;
+}
+
